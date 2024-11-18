@@ -1,0 +1,145 @@
+.Last h3{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 70px;
+    text-decoration: underline;
+}
+
+.Last{
+    overflow: hidden;
+}
+
+.Hub{
+    display: inline-flex;
+    justify-content: center;
+    white-space: nowrap;
+}
+
+.Hub:hover .imghub{
+  animation-play-state: paused;
+}
+
+.imghub img{
+  height: 60px;
+  margin: -10px 10px;
+}
+
+.imghub{
+  padding: 2% 5%;
+  animation: 7s slide infinite linear;
+}
+
+@keyframes slide {
+  from{
+    transform: translateX(0%);
+  }
+  to{
+    transform: translateX(-100%);
+  }
+}
+
+
+/* MEET SECTION  */
+
+.Meet h1{
+  text-align: center;
+  margin-top: 5%;
+  text-decoration: underline;
+}
+
+.Team{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3%;
+}
+
+.Team img{
+  height: 350px;
+}
+
+/* CLIENT SECTION */
+
+.Client h1{
+  text-align: center;
+  margin-top: 7%;
+  text-decoration: underline;
+}
+
+.cliname{
+  display: flex;
+  justify-content: center;
+}
+
+.cliname img{
+  height: 150px;
+  margin-top: 2%;
+}
+
+/* BRING SECTION */
+
+.Bring{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 7%;
+}
+
+.speak{
+  display: flex;
+  justify-content: center;
+}
+
+.speak button{
+  margin-top: 2%;
+  padding: 8px;
+  border-radius: 10px;
+  border: none;
+  background-color: #00a797;
+  color: white;
+}
+
+/* RESPONSIVE SECTION */
+
+@media screen and (max-width:1280px){
+  .imghub img{
+    height: 50px;
+  }
+
+}
+
+@media screen and (max-width:1024px){
+  .imghub img{
+    height: 40px;
+  }
+  .Team img{
+    height: 300px;
+    margin-top: 3%;
+  }
+  .cliname img{
+    height: 100px;
+    margin-top: 3%;
+  }
+}
+
+@media screen and (max-width:768px){
+  .imghub img{
+    height: 35px;
+  }
+  .Team{
+    display: flex;
+    flex-direction: column;
+  }
+  .cliname img{
+    height: 80px;
+  }
+}
+
+@media screen and (max-width:430px){
+  .imghub img{
+    height: 28px;
+  }
+  .cliname img{
+    height: 50px;
+  }
+}

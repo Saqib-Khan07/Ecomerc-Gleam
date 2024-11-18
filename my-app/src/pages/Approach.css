@@ -1,0 +1,74 @@
+.Approach{
+    background-color: rgb(229, 231, 235,0.5);
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.Approach h1{
+    text-align: center;
+    padding: 2%;
+    margin-top: 5%;
+}
+
+h3{
+    text-align: center;
+}
+
+.approach-1{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.approach-2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 7%;
+}
+
+.approach-1 img{
+    height: 150px;
+}
+
+.approach-2 img{
+    height: 150px;
+}
+
+/* RESPONSIVE SECTION  */
+
+@media screen and (max-width:1024px){
+    .approach-1 img{
+        height: 120px;
+        margin-top: 10%;
+    }
+    .approach-2{
+        height: 120px;
+        margin-top: 8%;
+    }
+    .Approach{
+        height:600px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .Approach{
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width:430px){
+    .Approach{
+        height: 1200px;
+    }
+    .approach-1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+    .approach-2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+}

@@ -1,0 +1,147 @@
+.footer{
+    background-color: #00a797;
+    height: 500px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    overflow: hidden;
+}
+
+/* ICONS */
+
+.icons{
+    margin-top: 88px;
+}
+
+.icons span{
+    padding-left: 10px;
+}
+/* QUICK LINK */
+
+.Quik-link{
+    margin-top: 120px;
+    cursor: pointer;
+}
+
+.Quik-link h4{
+    margin-bottom: 25px;
+}
+
+.Quik-link p{
+    margin-top: 6px;
+}
+.Quik-link a{
+    text-decoration: none;
+    color: white;
+}
+
+/* OUR SERVICES */
+
+.Our-services{
+    margin-top: 118px;
+    cursor: pointer;
+}
+
+.Our-services h4{
+    margin-bottom: 25px;
+}
+
+.Our-services p{
+    margin-top: 4px;
+}
+
+.Our-services  a{
+    text-decoration: none;
+    color: white;
+}
+
+/* LOCATION */
+
+.Location{
+    margin-top: 97px;
+    cursor: pointer;
+}
+
+.Location p{
+    margin-top: 20px;
+    display: flex;
+    gap: 5px;
+}
+
+
+/* RESPONSIVE SECTION  */
+
+@media screen and (max-width:1024px){
+    .photo img{
+        height: 50px;
+        margin-top: 30px;
+    }
+    .Quik-link{
+        margin-top: 135px;
+    }
+    .Quik-link p{
+        font-size: 13px;
+    }
+    .Quik-link h4{
+        font-size: 14px;
+        margin-bottom: 16px;
+    }
+    .Our-services{
+        margin-top: 135px;
+    }
+    .Our-services p{
+        font-size: 13px;
+    }
+    .Our-services h4{
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+    .Location{
+        margin-top: 115px;
+    }
+    .Location p{
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .footer{
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+        height: 800px;
+    }
+    .icons{
+        margin-top: -8%;
+    }
+    .Quik-link{
+        margin-top: -2%;
+    }
+    .Quik-link h4{
+        font-size: 20px;
+    }
+    .Quik-link p{
+        font-size: 17px;
+        text-align: center;
+    }
+    .Our-services{
+        margin-top: -3%;
+    }
+    .Our-services h4{
+        font-size: 22px;
+        text-align: center;
+    }
+    .Our-services p{
+        font-size: 17px;
+        text-align: center;
+    }
+    .Location{
+        margin-top: -3%;
+    }
+    .Location p{
+        font-size: 18px;
+        margin-left: 90px;
+    }
+}
