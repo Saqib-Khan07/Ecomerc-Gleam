@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import 'aos/dist/aos.css';
 import Ecomerce from './Component/Ecomerce';
 import Navbar from './pages/Navbar';
 import Footer from './pages/Footer';

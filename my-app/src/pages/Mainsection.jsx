@@ -1,5 +1,7 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './Mainsection.css'
+import 'aos/dist/aos.css'
+import Aos from 'aos'
 import Gif from  './Images/GIF-Pic.gif'
 import service1 from './Images/Services1.svg'
 import service2 from './Images/Services2.svg'
@@ -9,9 +11,13 @@ import   video  from './Images/Services video.mp4'
 import  review  from './Images/review img.png'
 
 function Mainsection() {
+
+    useEffect(()=>{
+        Aos.init();
+    },[])
   return (
     <>
-    <div className='Hero-Section'>
+    <div className='Hero-Section'  data-aos='fade-right' data-aos-offset='300' data-aos-duration='2000'>
     <div className='Hero-1'>
       <h1>ALL-IN-ONE TEAM FOR SEAMLESS ECOMMERCE MANAGEMENT</h1>
       <p>EcomGleam offers efficient ecommerce solutions to optimize performance and drive growth. Collaborate with us to leverage expert stratigies and cutting-edge technology tailored for your online success.</p>
@@ -26,7 +32,7 @@ function Mainsection() {
      </div>
     <div className='main-section'>
         <h1>Ecommerce Management Services</h1>
-        <div className='card-section'>
+        <div className='card-section'  data-aos='fade-up' data-aos-duration='3000' >
             <div className='card-1'>
                 <img src={service1} alt="Management Services"/>
                 <p>Amazon Full Account Management Services</p>
