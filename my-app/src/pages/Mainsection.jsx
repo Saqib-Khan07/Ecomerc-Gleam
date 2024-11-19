@@ -58,7 +58,7 @@ function Mainsection() {
             <video src={video} autoPlay muted loop></video>
         </div>
     </div>
-    <div className='Main-2'>
+    <div className='Main-2' data-aos="fade-up"  data-aos-duration='2000' >
         <img src={review} alt="review img"/>
         <div className='Main-pb'>
             <p>READY TO GROW YOUR REVENUE?</p>

@@ -10,11 +10,15 @@ import AmazonFba from './Component/Our Services/Amazon whole FBA service/AmazonF
 import Onlineretail from './Component/Our Services/Online Arbitrage/Onlineretail'
 import Threepl from './Component/Our Services/Threepl'
 import {BrowserRouter as Router, Routes,Route,Link} from 'react-router-dom';
+import ScrolTop from './ScrolTop'
+import ScrolAnchor from './ScrolAncher';
 
 function App() {
   return (
     <div className="App">
       <Router>
+        <ScrolAnchor/>
+        <ScrolTop/>
       <Navbar/>
         <Routes>
           <Route path='/' Component={Ecomerce}/>

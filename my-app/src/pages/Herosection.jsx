@@ -20,21 +20,21 @@ function Herosection() {
     </div>
     <div className='Hero'>
     <h2>OUR WORKING PROCESS</h2>
-            <div className='Big-Hero1'>
+            <div className='Big-Hero1'  data-aos="fade-right"  data-aos-duration='2000'>
                 <img src={work1} alt="" />
                 <div className='Part1'>
                 <h3>INSIGHTFUL CONSULTATION</h3>
                 <p>We Delve into Your Business Goals And Challenges, Conducing Thorough Analysis To Uncover Key Insights</p>
                 </div>
             </div>
-            <div className='Big-Hero2'>
+            <div className='Big-Hero2' data-aos="fade-left"  data-aos-duration='2000'>
               <div className='Part2'>
                 <h3>STRATEGIC CUSTOMIZATION AND EXECUTION</h3>
                 <p>Crafting and Implementing Bespoke Strategies Aligned With Your Objectives, Optimizing For Efficiency And Growth.</p>
                 </div>
                 <img src={work2} alt="" />
             </div>
-            <div className='Big-Hero3'>
+            <div className='Big-Hero3' data-aos="fade-right" data-aos-duration='2000'>
             <img src={work3} alt="" />
               <div className='Part3'>
                 <h3>TRANSPARENT ACCOUNTABILITY</h3>

@@ -16,7 +16,7 @@ import brand4  from   './Photo/7About4.png'
 function Boutus1() {
   return (
     <>
-    <div className='Bout'>
+    <div className='Bout' data-aos="fade-right" data-aos-duration='2000'>
       <div className='Bout-hp'>
         <h1>WE ARE <span>ECOM GLEAM</span> </h1>
         <p>We are Ecom Gleam. Here, we will illuminate the path for your e-commerce successes on Amazon. We are committed to empowering Amazon sellers by providing them with customized solutions and unwavering assistance.</p>
@@ -40,7 +40,7 @@ function Boutus1() {
         <p>With over two decades of experience, Muhamd Basit & Syed Ali has witnessed the evolution of e-commerce and possesses an intricate understanding of what it takes to run a successful online enterprise. Ecom Gleam emerged from this profound knowledge and a fervent passion for aiding others in their journey to success.</p>
       </div>
     </div>
-    <div className='card'>
+    <div className='card' data-aos="fade-right" data-aos-duration='2500'>
       <div className='Misson-1'>
         <h2>OUR MISSION</h2>
         <p>At Ecom Gleam, our mission is to empower businesses to thrive in the Amazon marketplace by providing innovative, personalized, and results-driven e-commerce solutions. We are dedicated to enhancing visibility, driving growth, and maximizing profitability through expert Amazon Account Management, 3PL Prep and Warehouse, FBA Wholesale, and Online Arbitrage Services.</p>
@@ -55,7 +55,7 @@ function Boutus1() {
 
     <div className='gleam'>
       <h1>THE GLEAM VALUES</h1>
-      <div className='head'>
+      <div className='head' data-aos="fade-up" data-aos-duration='2500'>
       <div className='gleam-1'>
         <img src={gleam1} alt="" />
         <h2>Innovate</h2>
@@ -149,7 +149,7 @@ function Boutus1() {
       </div>
     </div>
 
-    <div className='end'>
+    <div className='end' data-aos="fade-up" data-aos-duration='2500'>
       <h2>Take Your Brand To New Heights on Amazon</h2>
       <button>Speak to EcomGleam</button>
     </div>

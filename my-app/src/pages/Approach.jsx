@@ -8,7 +8,7 @@ import App5 from './Images/approach5.svg'
 
 function Approach() {
   return (
-    <div className='Approach'>
+    <div className='Approach' data-aos="fade-up" data-aos-duration='2000'>
         <h1>OUR APPROACH</h1>
         <div className='approach-1'>
           <div className='Rev'>

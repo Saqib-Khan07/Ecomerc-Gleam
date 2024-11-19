@@ -47,7 +47,7 @@ function Lastsection() {
     </div>
     <div className='Client'>
       <h1>OUR CLIENTS</h1>
-      <div className='cliname'>
+      <div className='cliname'  data-aos="fade-right"  data-aos-duration='2000'>
         <img src={Client} alt="" />
       </div>
     </div>
